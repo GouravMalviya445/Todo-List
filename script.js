@@ -38,7 +38,7 @@ function addTodo(e) {
         trashBtn.addEventListener('click', () => {
             todoDiv.classList.add('fall')
             todoDiv.addEventListener('transitionend', () => {
-                todoDiv.parentElement.removeChild(todoDiv);
+                todoDiv.remove();
             })
         })
 

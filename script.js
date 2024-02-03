@@ -48,11 +48,7 @@ function addTodo(e) {
         })
 
     } else {
-        const p = document.createElement("p");
-        p.innerText = "Oops... plese enter something!!!";
-        p.style.color = "red";
-        p.style.textAlign = "center"
-        document.querySelector("main").appendChild(p);
+        alert("Please enter any Task!")        
     }
 
 }
